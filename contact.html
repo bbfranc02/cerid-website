@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CERID</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <!-- LOGO -->
+    <div class="logo">
+        <img src="images/logo.png" alt="CERID Logo" width="40">
+        <span>CERID</span>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html" data-fr="Accueil" data-en="Home"></a>
+        <a href="about.html" data-fr="Qui sommes-nous" data-en="About Us"></a>
+        <a href="programs.html" data-fr="Domaines" data-en="Programs"></a>
+        <a href="projects.html" data-fr="Projets" data-en="Projects"></a>
+        <a href="impact.html" data-fr="Impact" data-en="Impact"></a>
+        <a href="publications.html" data-fr="Publications" data-en="Publications"></a>
+        <a href="news.html" data-fr="Actualités" data-en="News"></a>
+        <a href="get-involved.html" data-fr="S’impliquer" data-en="Get Involved"></a>
+        <a href="contact.html" data-fr="Contact" data-en="Contact"></a>
+        <a href="team.html" data-fr="Équipe" data-en="Team"></a>
+    </nav>
+
+    <!-- LANGUAGE -->
+    <div class="language-switch">
+        <button onclick="setLanguage('fr')">FR</button>
+        <button onclick="setLanguage('en')">EN</button>
+    </div>
+
+</header>
+
+<!-- HERO -->
+
+<h1 class="section-title"
+    data-fr="Contactez-nous"
+    data-en="Contact Us"></h1>
+
+<section class="contact-container">
+
+    <!-- LEFT: INFO -->
+    <div class="contact-info">
+
+        <h2 data-fr="Nos coordonnées" data-en="Our Contact"></h2>
+
+        <p>📧 Email: cerid.drc@gmail.com</p>
+        <p data-fr="📞 Téléphone: +243810809323"
+           data-en="📞 Phone: +243810809323"></p>
+
+        <p data-fr="📍 Localisation: Goma, RDC"
+           data-en="📍 Location: Goma, DRC"></p>
+
+        <!-- WHATSAPP BUTTON -->
+        <a href="https://wa.me/243810809323" target="_blank" class="whatsapp-btn">
+            WhatsApp
+        </a>
+
+        <!-- IMAGE -->
+        <img src="images/contact.jpg" alt="Contact" class="contact-image">
+
+    </div>
+
+    <!-- RIGHT: FORM -->
+    <div class="contact-form">
+
+        <h2 data-fr="Envoyer un message"
+            data-en="Send a Message"></h2>
+
+        <form>
+
+            <input type="text" placeholder="Nom / Name" required>
+
+            <input type="email" placeholder="Email" required>
+
+            <textarea placeholder="Message" rows="5" required></textarea>
+
+            <button type="submit" class="btn"
+                data-fr="Envoyer"
+                data-en="Send"></button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!--end of herro -->
+<section class="map-section">
+
+    <h2 data-fr="Notre localisation"
+        data-en="Our Location"></h2>
+
+    <iframe 
+        src="https://www.google.com/maps?q=Goma,RDC&output=embed"
+        width="100%" 
+        height="300" 
+        style="border:0; border-radius:10px;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+
+</section>
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <!-- ABOUT -->
+        <div>
+            <h3 
+            data-fr="À propos"
+            data-en="About"></h3>
+
+            <p 
+            data-fr="CERID est une organisation engagée pour le développement durable et la résilience des communautés."
+            data-en="CERID is an organization committed to sustainable development and community resilience.">
+            </p>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div>
+            <h3 
+            data-fr="Liens rapides"
+            data-en="Quick Links"></h3>
+
+            <ul>
+                <li><a href="about.html" data-fr="Qui sommes-nous" data-en="About Us"></a></li>
+                <li><a href="programs.html" data-fr="Domaines" data-en="Programs"></a></li>
+                <li><a href="projects.html" data-fr="Projets" data-en="Projects"></a></li>
+                <li><a href="contact.html" data-fr="Contact" data-en="Contact"></a></li>
+            </ul>
+        </div>
+
+        <!-- CONTACT -->
+        <div>
+            <h3 
+            data-fr="Contact"
+            data-en="Contact"></h3>
+
+            <p>Email: cerid.drc@gmail.com</p>
+            <p data-fr="Téléphone : +243810809323" data-en="Phone: +243810809323"></p>
+            <p data-fr="Localisation : Goma, RDC" data-en="Location: Goma, DRC"></p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p 
+        data-fr="© 2026 CERID - Tous droits réservés"
+        data-en="© 2026 CERID - All rights reserved">
+        </p>
+    </div>
+
+</footer>
+<!-- LINK JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
