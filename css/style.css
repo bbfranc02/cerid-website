@@ -2,8 +2,20 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    font-size: 18px; /* 🔥 increased from default (~16px) */
+    line-height: 1.7;
+}
+h1 {
+    font-size: 36px;
 }
 
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 20px;
+}
 /* NAVBAR */
 .navbar {
     display: flex;
@@ -183,8 +195,8 @@ nav a.active {
 .about-flex {
     display: flex;
     align-items: center;
-    gap: 40px;
-    padding: 40px;
+    gap: 20px;
+    padding: 20px;
     flex-wrap: wrap;
 }
 
@@ -205,8 +217,8 @@ nav a.active {
 
 .about-grid {
     display: flex;
-    gap: 20px;
-    padding: 40px;
+    gap: 15px;
+    padding: 20px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -244,8 +256,8 @@ nav a.active {
 .programs-container {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    padding: 40px;
+    gap: 15px;
+    padding: 20px;
 }
 
 .program-card {
@@ -258,7 +270,7 @@ nav a.active {
 }
 
 .program-card img {
-    width: 300px;
+    width: 220px;
     object-fit: cover;
 }
 
@@ -276,8 +288,8 @@ nav a.active {
 }
 .projects-container {
     display: flex;
-    gap: 20px;
-    padding: 40px;
+    gap: 15px;
+    padding: 20px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -296,7 +308,7 @@ nav a.active {
 
 .project-card img {
     width: 100%;
-    height: 200px;
+    height: 180px;
     object-fit: cover;
 }
 
@@ -472,13 +484,13 @@ body {
 .news-container {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    padding: 40px;
+    gap: 2px;
+    padding: 20px;
 }
 
 .news-card {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     background: #f5f5f5;
     border-radius: 10px;
     overflow: hidden;
@@ -492,7 +504,7 @@ body {
 }
 
 .news-card img {
-    width: 300px;
+    width: 220px;
     object-fit: cover;
 }
 
@@ -575,8 +587,8 @@ body {
 
 .contact-container {
     display: flex;
-    gap: 40px;
-    padding: 40px;
+    gap: 20px;
+    padding: 20px;
     flex-wrap: wrap;
 }
 
@@ -650,8 +662,8 @@ body {
 
 .team-container {
     display: flex;
-    gap: 30px;
-    padding: 40px;
+    gap: 20px;
+    padding: 20px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -671,7 +683,7 @@ body {
 
 .team-card img {
     width: 100%;
-    height: 260px;
+    height: 220px;
     object-fit: cover;
     border-radius: 10px;
 }
